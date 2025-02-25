@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value="come&#231;o"/>
+        <attribute name="saved" value="2025-02-25 03:37:33 "/>
+        <attribute name="created" value="QWx1bm87IERTTjkxNC1NSUNSTzYtTDsgMjAyNS0wMi0yNTsgMDE6Mjc6NDIgOyAyNzEz"/>
+        <attribute name="edited" value="QWx1bm87IERTTjkxNC1NSUNSTzYtTDsgMjAyNS0wMi0yNTsgMDM6Mzc6MzMgOyAyNzE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n % 2 ==0">
+                <then>
+                    <output expression="&quot;Par&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#205;mpar&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="come&#231;o" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="10"/>
+            <if expression="n % 2 ==0">
+                <then>
+                    <output expression="&quot;Par&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#205;mpar&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
