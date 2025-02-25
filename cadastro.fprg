@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 04:25:26 "/>
+        <attribute name="created" value="QWx1bm87IERTTjkxNC1NSUNSTzYtTDsgMjAyNS0wMi0yNTsgMDM6NTA6NDUgOyAyNzE0"/>
+        <attribute name="edited" value="QWx1bm87IERTTjkxNC1NSUNSTzYtTDsgMjAyNS0wMi0yNTsgMDQ6MjU6MjYgOyAyNzE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <output expression="&quot;Seu nome completo&quot;"/>
+            <input variable="Nome"/>
+            <declare name="Email" type="String" array="False" size=""/>
+            <output expression="&quot;informe seu email&quot;"/>
+            <input variable="Email"/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe sua idade&quot;"/>
+            <input variable="idade"/>
+            <if expression="idade&gt;18">
+                <then>
+                    <output expression="&quot;Continue&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Idade invalida&quot;"/>
+                    <breakpoint/>
+                </else>
+            </if>
+            <declare name="senha" type="String" array="False" size=""/>
+            <output expression="&quot;Crie uma senha&quot;"/>
+            <input variable="senha"/>
+            <if expression="len(senha) &gt; 8">
+                <then>
+                    <output expression="&quot;Cadastro feito&quot;"/>
+                    <breakpoint/>
+                </then>
+                <else>
+                    <output expression="&quot;senha fora dos padr&#245;es, tente de novo&quot;"/>
+                    <breakpoint/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
