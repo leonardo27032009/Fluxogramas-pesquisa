@@ -22,9 +22,8 @@ Um fluxograma é uma representação gráfica de um processo ou fluxo de trabalh
 4- **Decisão** (Losango): Representa uma condição que direciona o fluxo (ex: verificar se o número é par ou ímpar).
 
 5- **Conector** (Círculo): Indica um ponto de conexão no fluxograma, útil em fluxos grandes ou complexos.
-
-<div align="center>
-  <img src="(https://www.researchgate.net/profile/Eraldo-Bonfatti-Junior/publication/325917131/figure/fig1/AS:642490885484556@1530193172945/Figura-2-Simbolos-para-fluxograma-Fonte-Os-autores.png">  
+<div align="center">
+  <img src="https://8quali.com.br/wp-content/uploads/2021/06/2021-06-20-2-e1624235843604.png">
 </div>
 
 ## Como os fluxogramas são utilizados no desenvolvimento de sistemas?
